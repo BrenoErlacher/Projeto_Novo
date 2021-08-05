@@ -1,0 +1,147 @@
+/*classe começa com . | ID começa com # */
+
+body{
+
+}
+
+h1{
+font-size: 80px;
+/*color: #212121;*/
+}
+
+p{
+	/*font-size: 1.5em;*/
+	letter-spacing:0px;
+	line-height: 0.4;
+}
+button{
+
+}
+
+.btn-light, .btn-light:hover{
+	background-color: transparent ;
+	border: none;
+	display: flex;
+}
+
+.top7{
+	padding-top: 7em;
+}
+.bot7{
+	padding-bottom: 7em;
+}
+.top3{
+	padding-top: 3em;
+}
+.bot3{
+	padding-bottom: 3em;
+}
+
+
+/*Bloco slider do site*/
+#bloco_slider{
+	background-image: url('assets/images/favicon.png');
+	background-repeat:no-repeat ;
+	background-position: right;
+	background-size: contain;
+	padding-top: 1.4em;
+    padding-bottom: 7em;
+}
+#bloco_slider h2{ font-size: 50px; color: #4ac959;}
+
+#bloco_slider button.btn-success{
+	background-color: #4ac959;
+	border-radius: 0;
+	border: 0;
+}
+
+
+#bloco_slider button.btn-dark{
+	background-color: #212121;
+	border-radius: 0;
+	border: 0;
+	position: absolute;
+}
+
+#bloco_slider button.btn-light{
+	background-color: #FFFFFF;
+	border: 0;
+	border-radius: 0;
+	position: absolute;
+	right: 670px;
+}
+
+#bloco_black{
+	background-color:#000000;
+	color: white;
+
+
+}
+.borda_green{
+	border-bottom: 5px solid #4ac959;
+
+}
+
+#bloco_black button.btn-dark{
+	background-color: #000000;
+	border-radius: 0;
+	 border: 0; 
+	display: flex;
+}
+
+
+ /*BLOCO GOOGLE*/
+
+#bloco_google{
+	background-image: url('assets/images/google-background-top.png');
+	background-repeat: no-repeat;
+	/*background-size: cover;*/
+}
+
+
+
+img:hover{
+	transform: scale(1.05);
+	/*transform: rotatescale1.05(360deg);*/
+	transition: all .5s;
+}
+
+#bloco_google img{
+	display: block;
+	margin: 0 auto;
+}
+
+/*bloco_plano_servico*/
+
+#bloco_plano_servico .col{
+	background-color: #FFFFFF;
+	/*gap: 6em;*/
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0);
+
+}
+#bloco_plano_servico button.btn-success{
+	background-color: #4ac959;
+	border-radius: 0;
+	border: 0;
+	width: 300px; 
+	height: 50px
+}
+#bloco_plano_servico button.btn-dark{
+	background-color: #000000 ;
+	border-radius: 0;
+	border: 0;
+	width: 300px; 
+	height: 50px
+}
+#bloco_plano_servico button.btn-secondary{
+	border-radius: 0;
+	border: 0;
+	width: 300px; 
+	height: 50px
+}
+
+/*bloco_fim*/
+#bloco_fim{
+	background-color:#000000;
+	color: white;
+}
